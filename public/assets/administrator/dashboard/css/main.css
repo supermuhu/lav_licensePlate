@@ -1,0 +1,76 @@
+.btn {
+    font-size: 1rem !important;
+}
+
+.btn-open-import:hover,
+.btn-custom:hover,
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-success:hover,
+.btn-danger:hover,
+.btn-warning:hover,
+.btn-info:hover,
+.btn-light:hover,
+.btn-dark:hover,
+.btn-search:hover {
+    opacity: 0.6 !important;
+}
+
+.btn-custom {
+    background-color: #87c3ff !important;
+    color: white !important;
+    border: 1px solid #87c3ff !important;
+}
+.btn-open-import{
+    background-color: #8987ff !important;
+    color: #ffffff !important;
+    border: 1px solid #8987ff !important;
+}
+.btn-search{
+    background-color: #519CCD !important;
+    color: #ffffff !important;
+    border: 1px solid #519CCD !important;
+}
+.col-width-100 {
+    width: 100px !important;
+}
+
+.col-width-150 {
+    width: 150px !important;
+}
+
+.col-width-20 {
+    width: 20px !important;
+}
+
+.col-width-50 {
+    width: 50px !important;
+}
+.import-frame {
+    transition: all 0.25s ease-in-out;
+    transform: translateX(-100%);
+    opacity: 0;
+    /* position: relative; */
+    z-index: -1;
+}
+
+.import-frame.show {
+    transform: translateX(0);
+    opacity: 1;
+    z-index: 0;
+}
+.table-responsive{
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+}
+.drp-buttons{
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: center !important;
+}
+.drp-buttons > .btn{
+    font-size: 0.75rem !important;
+}
+.pointer{
+    cursor: pointer !important;
+}
